@@ -1,0 +1,42 @@
+.my-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+  }
+  
+  .my-component.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .highlight {
+    text-decoration: underline;
+    background-color: yellow;
+  }
+
+
+  .container {
+    margin-top: 2rem; // Використовуємо клас mt-6
+}
+
+.students_list {
+    margin-top: 2rem; // Використовуємо клас mt-6
+}
+
+.subtitle {
+    font-size: 1.5rem; // Наприклад, розмір заголовку
+    margin-bottom: 1rem; // Додаємо відступ після заголовку
+}
+
+.list {
+    list-style-type: none; // Вимикаємо маркери списку
+    padding: 0; // Вимикаємо внутрішні відступи списку
+}
+
+.list-item {
+    margin-bottom: 1rem; // Додаємо відступ між елементами списку
+    margin-top: 1rem; // Додаємо відступ над першим елементом списку
+}
